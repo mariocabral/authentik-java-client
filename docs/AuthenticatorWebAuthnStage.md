@@ -1,0 +1,27 @@
+
+
+# AuthenticatorWebAuthnStage
+
+AuthenticatorWebAuthnStage Serializer
+
+## Properties
+
+| Name | Type | Description | Notes |
+|------------ | ------------- | ------------- | -------------|
+|**pk** | **UUID** |  |  [readonly] |
+|**name** | **String** |  |  |
+|**component** | **String** | Get object type so that we know how to edit the object |  [readonly] |
+|**verboseName** | **String** | Return object&#39;s verbose_name |  [readonly] |
+|**verboseNamePlural** | **String** | Return object&#39;s plural verbose_name |  [readonly] |
+|**metaModelName** | **String** | Return internal model name |  [readonly] |
+|**flowSet** | [**List&lt;FlowSet&gt;**](FlowSet.md) |  |  [optional] |
+|**configureFlow** | **UUID** | Flow used by an authenticated user to configure this Stage. If empty, user will not be able to configure this stage. |  [optional] |
+|**friendlyName** | **String** |  |  [optional] |
+|**userVerification** | **UserVerificationEnum** |  |  [optional] |
+|**authenticatorAttachment** | **AuthenticatorAttachmentEnum** |  |  [optional] |
+|**residentKeyRequirement** | **ResidentKeyRequirementEnum** |  |  [optional] |
+|**deviceTypeRestrictions** | **List&lt;UUID&gt;** |  |  [optional] |
+|**deviceTypeRestrictionsObj** | [**List&lt;WebAuthnDeviceType&gt;**](WebAuthnDeviceType.md) |  |  [readonly] |
+
+
+

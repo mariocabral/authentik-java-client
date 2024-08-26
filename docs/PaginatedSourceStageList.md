@@ -1,0 +1,14 @@
+
+
+# PaginatedSourceStageList
+
+
+## Properties
+
+| Name | Type | Description | Notes |
+|------------ | ------------- | ------------- | -------------|
+|**pagination** | [**Pagination**](Pagination.md) |  |  |
+|**results** | [**List&lt;SourceStage&gt;**](SourceStage.md) |  |  |
+
+
+

@@ -1,0 +1,14 @@
+
+
+# PaginatedUserSAMLSourceConnectionList
+
+
+## Properties
+
+| Name | Type | Description | Notes |
+|------------ | ------------- | ------------- | -------------|
+|**pagination** | [**Pagination**](Pagination.md) |  |  |
+|**results** | [**List&lt;UserSAMLSourceConnection&gt;**](UserSAMLSourceConnection.md) |  |  |
+
+
+
